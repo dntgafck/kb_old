@@ -1,0 +1,14 @@
+site_name: KB
+markdown_extensions:
+  - mdx_math
+  - codehilite
+  - toc:
+      permalink: True
+nav:
+  - Home: index.md
+  - Web:
+      - 'How email works': web/email.md
+      - 'DNS': web/dns.md
+  - 'Distributed Systems':
+      - Notes: distributed-systems/notes.md
+theme: flatly
